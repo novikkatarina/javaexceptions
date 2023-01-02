@@ -9,7 +9,7 @@ public class Main {
         } catch (DifferenceException e) {
             System.out.println(e.getMessage());
         } catch (QuotientException e) {
-            System.out.println("RuntimeException,");
+            System.out.println("RuntimeException");
         } catch (Exception e) {
 
         }
@@ -19,7 +19,7 @@ public class Main {
     static void submain() throws DifferenceException, QuotientException {
         int[] arr1 = {9, 3, 6, 2};
         int[] arr2 = {5, 3, 5, 7, 6};
-        Difference(arr1, arr2);
+//        Difference(arr1, arr2);
         Quotient(arr1, arr2);
 
     }
